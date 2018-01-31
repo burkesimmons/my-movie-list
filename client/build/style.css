@@ -1,0 +1,131 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+span {
+	text-align: center;
+}
+
+/*Welcome Page Logo*/
+#logoWelcome {
+	height: 60px;
+}
+
+/*Sign in form*/
+.signInForm {
+	margin-bottom: 0px;
+	
+}
+
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+  }
+
+/*Input Field Placeholder text colors*/
+input::-webkit-input-placeholder {
+color: #646566 !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #646566 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #646566 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #646566 !important;  
+}
+
+h3 {
+	color: #3f51b5;
+}
+
+#title {
+	text-align: center;
+}
+
+/*Text for movie details*/
+.card-content {
+	color: black;
+}
+
+/*Logo in the nav component*/
+#logo {
+	height: 100px;
+	z-index: 10;
+	padding: 20px;
+}
+
+/*Navbar*/
+.navbar {
+	padding-bottom: 200px;
+}
+
+
+.signIn {
+	max-height: 100px;
+}
+ .nav-content {
+ 	margin-top: 10px;
+ }
+
+/*Add and remove from watch buttons*/
+#green {
+	background-color: green;
+}
+
+#red {
+	background-color: red;
+}
+
+/*User SideBar*/
+.userList {
+	color: #3949ab;
+}
+/*Carousel*/
+#carousel {
+	margin-top: 0px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .col.s3 {
+        min-height: 169px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 749px) {
+    .col.s3 {
+        min-height: 206px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 992px) {
+    .col.s3 {
+        min-height: 279px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+    .col.s3 {
+        min-height: 279px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .col.s3 {
+        min-height: 375px;
+    }
+}
+
